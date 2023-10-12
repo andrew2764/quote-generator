@@ -58,3 +58,19 @@ button.roll:hover {
   transition: 0.3s;
   box-shadow: 0 0 30px #53ffaa;
 }
+
+@media (min-width: 800px) {
+  .container {
+    max-width: 600px;
+    padding: 3em 2em 0;
+  }
+
+  .title {
+    font-size: 13px;
+  }
+
+  .advice {
+    font-size: 28px;
+    margin-bottom: 1.25em;
+  }
+}
