@@ -7,17 +7,54 @@
   font-weight: 800;
 }
 
+img {
+  max-width: 100%;
+}
+
 body {
   text-align: center;
+  background-color: #202733;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background-color: #313a48;
+  width: 90%;
+  margin: 0 auto;
+  border-radius: 8px;
+  max-width: 375px;
+  padding: 2em 1em 0;
 }
 
 .title {
   text-transform: uppercase;
   font-size: 11px;
   letter-spacing: 0.375em;
+  color: #53ffaa;
 }
 
 .advice {
   font-size: 24px;
   line-height: 1.5em;
+  color: white;
+  margin: 1em 0;
+}
+
+button.roll {
+  cursor: pointer;
+  border: none;
+  display: flex;
+  margin: 0 auto;
+  padding: 1.5em;
+  border-radius: 100%;
+  background-color: #53ffaa;
+  transform: translateY(50%);
+}
+
+button.roll:hover {
+  transition: 0.3s;
+  box-shadow: 0 0 30px #53ffaa;
 }
