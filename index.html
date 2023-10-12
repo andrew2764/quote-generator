@@ -7,6 +7,9 @@
   <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 
   <title>Advice generator app</title>
@@ -15,9 +18,14 @@
 
 <body>
 
-  Advice #<!-- Advice ID goes here -->
-
-  "It is easy to sit up and take notice, what's difficult is getting up and taking action"
+  <main>
+    <div class="container">
+      <p class="title">Advice #<!-- Advice ID goes here --></p>
+      <h1 class="advice">"It is easy to sit up and take notice, what's difficult is getting up and taking action"</h1>
+      <img src="./images/pattern-divider-mobile.svg" alt="divider">
+      <button class="roll"><img src="./images/icon-dice.svg" alt="dice icon"></button>
+    </div>
+  </main>
   <script src="index.js"></script>
 </body>
 
